@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color:rgb(18, 18, 62) ;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}    
+nav ul li a:hover{
+    color:rgb(164, 164, 235);
+    font-size: 1.3rem;
+}
+.left{
+    font-size: 1.35rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+.firstsection > div{
+   width: 30%;
+}
+.leftsection{
+    width: 34px;
+    font-size: 3rem;
+    margin-right: 15%;
+   
+}
+.leftsection div{
+    font-size: 2.15rem;
+}
+.rightsection{
+    width: 34px;
+   
+}
+.rightsection img {
+            width: 80%;
+            margin-top: 20px;
+            border-radius: 10px;
+            margin: 80px 0;
+        }
+.purple{
+    color: rgb(129, 40, 212);
+}
+#element{
+    color: rgb(129, 40, 212);
+    font-size:2rem;
+}
+.secondsection{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.secondsection h1{
+    max-width: 80vw;
+    margin: auto;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.secondsection h1{
+    text-align: center;
+    font-size: 2.0rem;
+}
+.social-media {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .skillset {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .skillset h2 {
+            font-size: 2rem;
+            color: rgb(129, 40, 212);
+        }
+
+        .skills {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .skills li {
+            margin: 0 20px;
+        }
+
+        .skills i {
+            font-size: 2rem;
+            color: rgb(129, 40, 212);
+        }
+
+.project-details {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.project-details h2 {
+    font-size: 2rem;
+    color: rgb(129, 40, 212);
+}
+
+.projects {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects li {
+    margin: 0 20px;
+    flex: 1; 
+    max-width: 300px; 
+    text-align: left; 
+    font-size: 1.2rem;
+    color: white;
+}
+
+.projects i {
+    font-size: 2rem;
+    color: rgb(129, 40, 212);
+}
+
+.line {
+    border-top: 2px solid rgb(129, 40, 212); 
+    margin: 20px 0;
+    padding-top: 25px;
+    
+}
+/* Contact Details section styles */
+
+.contact-details {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.contact-details h2 {
+    font-size: 2rem;
+    color: rgb(129, 40, 212);
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info li {
+    margin: 0 20px;
+    flex: 1; 
+    max-width: 300px; 
+    text-align: left; 
+    font-size: 1.2rem;
+    color: white;
+}
+
+.contact-info i {
+    font-size: 2rem;
+    color: rgb(129, 40, 212);
+}
+
+   </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+            <div class="left">Sukhwinder Singh</div>
+            <div class="right"></div>
+                <ul>
+                    <li><a href="port.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#skillset">Skills</a></li>
+                    <li><a href="#project-details">Projects</a></li>
+                    <li><a href="#contact-details">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+           <section class="firstsection">
+           
+            <div class="leftsection">
+                Hi,My Name is <span class="purple">Sukhwinder Singh</span>
+                <div>and I am a passionate </div>
+                 <!-- Element to contain animated typing -->
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="sukhe.jpg">
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/sukhwinder-singh-252827223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="https://instagram.com/sukhe__1103_?igshid=MWZjMTM2ODFkZg=="><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+           </section>
+           <div class="line"></div>
+           <section class="skillset" id="skillset">
+               <h2>SKILL SET</h2>
+               <ul class="skills">
+                   <li><i class="fas fa-code"></i> HTML</li>
+                   <li><i class="fas fa-paint-brush"></i> CSS</li>
+                   <li><i class="fas fa-code"></i> C/C++</li>
+                   <li><i class="fab fa-python"></i> Python</li>
+                   <li><i class="fas fa-brain"></i> Machine Learning</li>
+               </ul>
+           </section>
+           <div class="line"></div>
+           <section class="project-details" id="project-details">
+               <h2>PROJECT DETAILS</h2>
+               <ul class="projects">
+                   <li><i class="fas fa-laptop-code"></i><u> HOTEL MANAGEMENT SYSTEM in C++: </u><ul>
+                       <li>This management system generally provide a platform to record the details of the guests staying in the hotel.</li>
+                       <li>it will provide us some options such as Add new customer , check in details , check out details ,payment history and many more.</li>
+                   </ul>
+                    </li>
+                   <li><i class="fas fa-laptop-code"></i> <u> INSURANCE PREDICTION MODEL: </u><ul>
+                       <li>This is a Machine Learning based prediction model.</li>
+                       <li>In this, It will predict the health issurance for the different regions by taking the required information from user.</li>
+                       <li>It is training based model , trained on the pre train dataset </li>
+                       <li>It also having its own GUI interface.</li>
+                   </ul> </li>
+                   <li><i class="fas fa-laptop-code"></i> <u>GUI QUIZ :</u><ul>
+                    <li>This is GUI based QUIZ app which is build in python.</li>
+                    <li>It general contains some questions and provide us platform to play quiz questions.</li>
+                    <li>It also provide the score record and when you lose and then also tell you.</li>
+                   </ul></li>
+               </ul>
+           </section> 
+           <div class="line"></div>
+           <section class="contact-details" id="contact-details">
+               <h2>Contact Details</h2>
+               <ul class="contact-info">
+                   <li><i class="fas fa-envelope"></i>EMAIL : sukhe3608@gmail.com</li>
+                   <li><i class="fas fa-phone"></i>MOBILE NUMBER : 9996637425</li>
+                   <li><i class="fas fa-map-marker-alt"></i> Address : H.no = 69 Krishna nagar, chandpur ,Yamuna nagar -135001 ,Haryana</li>
+               </ul>
+           </section>  
+        </main>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+         <!-- Setup and start animation! -->
+         <script>
+         var typed = new Typed('#element', {
+        strings: ['<i> computer Science Student</i>',
+        '<i>A good communicator</i>', 
+        '&amp; A Software Developer'],typeSpeed: 50,});
+  </script>
+</body>
+    </body>
+</html>
